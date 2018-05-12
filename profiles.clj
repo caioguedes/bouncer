@@ -1,5 +1,5 @@
 {:dev
- {:aliases {"clj-tests" ["with-profile" "dev,1.8:dev,1.7:dev,1.6:dev" "test"]
+ {:aliases {"clj-tests" ["with-profile" "dev,1.9:dev,1.8:dev,1.7:dev,1.6:dev" "test"]
             "cljs-tests" ["with-profile" "cljs" "doo" "node" "once"]
             "cljs-auto" ["with-profile" "cljs" "cljsbuild" "auto"]
             "cljs-once" ["with-profile" "cljs" "cljsbuild" "once"]}}
@@ -20,4 +20,5 @@
         :hooks      [leiningen.cljsbuild]}
  :1.6  {:jdependencies [[org.clojure/clojure "1.6.0"]]}
  :1.7  {:jdependencies [[org.clojure/clojure "1.7.0"]]}
- :1.8  {:jdependencies [[org.clojure/clojure "1.8.0"]]}}
+ :1.8  {:jdependencies [[org.clojure/clojure "1.8.0"]]}
+ :1.9  {:jdependencies [[org.clojure/clojure "1.9.0"]]}}
